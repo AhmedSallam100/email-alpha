@@ -2,19 +2,11 @@
   "name": "server",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Alpah End Email Form",
   "scripts": {
-    "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "strapi": "strapi",
-    "server": "nodemon server.js"
+    "start": "nodemon index.js"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.12.5",
-    "@strapi/plugin-users-permissions": "4.12.5",
-    "@strapi/provider-upload-cloudinary": "^4.12.6",
-    "@strapi/strapi": "4.12.5",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "ejs": "^3.1.9",
@@ -25,14 +17,13 @@
     "pg": "8.8.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Ahmed Sallam"
   },
   "strapi": {
     "uuid": "b93e27ad-eacc-40f0-8ea7-c709a643a7d9"
   },
   "engines": {
-    "node": ">=16.0.0 <=20.x.x",
-    "npm": ">=6.0.0"
+    "node": "v18.16.0"
   },
   "license": "MIT"
 }
